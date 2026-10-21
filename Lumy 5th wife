@@ -1,0 +1,27 @@
+import turtle as tu
+
+screen = tu.Screen()
+screen.setup(width=600, height=750)
+screen.bgcolor("#050505")
+screen.title("SA Logo Perfected")
+
+t = tu.Turtle()
+t.speed(3)
+t.hideturtle()
+
+t.color("#C80000")
+t.pensize(5)
+
+t.penup()
+t.goto(60, 140)
+t.pendown()
+
+t.goto(-30, 200)
+t.goto(-90, 100)
+t.goto(60, 0)
+t.goto(-75, -100)
+t.goto(0, -220)
+t.goto(75, -100)
+t.goto(-75, -100)
+
+tu.done()
